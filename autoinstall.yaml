@@ -5,7 +5,7 @@ autoinstall:
         realname: 'Leite'
         hostname: ubuntu-desktop
         username: leite
-        password: '0'
+        password: '$y$j9T$AfyGtyAkHoazz9s7WXAd3.$2pdnhkhfln98/1zJxx1NuZzTajr65QaPDe0npyR6aa7'
     locale: pt_BR.utf8
     keyboard:
         layout: br
