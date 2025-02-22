@@ -30,4 +30,11 @@ autoinstall:
         install: true
     updates: all
     shutdown: reboot
-
+    storage:
+    layout:
+      custom:
+        - device: /dev/sda1  # Substitua pelo nome correto da partição
+          wipe: false  # Não formata a partição
+          preserve: true  # Mantém os dados existentes
+          filesystem: ext4
+          mountpoint: /
