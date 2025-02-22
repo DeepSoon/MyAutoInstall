@@ -35,6 +35,6 @@ autoinstall:
       custom:
         - device: /dev/sda2  # Substitua pelo nome correto da partição
           wipe: true  #formata a partição
-          preserve: true  # Mantém os dados existentes
+          preserve: false  # Mantém os dados existentes
           filesystem: ext4
           mountpoint: /
